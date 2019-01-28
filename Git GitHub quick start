@@ -1,0 +1,35 @@
+Git is a distributed version control system for tracking changes in source code during software development.
+GitHub is a cloud based platform built around the Git tool; it is a web-based hosting service that stores 
+code pushed to it from computers running the Git tool. 
+
+To use Git/GitHub:
+  1. Download and install Git from https://git-scm.com/downloads
+  2. Create a GitHub account
+  3. Initialize a local repository or clone a resository from GitHub:
+       initialize local repository:  
+           git init .
+       clone a repository
+           git clone <repository_url>
+
+  4. Start to work on the repository:
+    config editor for easy usage:
+        git config --global core.editor <your app's name>
+    check files status:        git status
+    add files to repository:   git add <file(s)> 
+    commit files:              git commit
+    check file difference:     git diff
+    check file commit history: git log
+
+  5. Push the commit in the branch to GitHub repository:
+       git push origin <my-new-branch>
+    If there is only master branch, "git push" cmd should be enough.
+   
+  6. Create a Pull Request (PR) from GitHub to allow your pushed code to be reviewed and approval for merge.
+  
+  7. Merge the PR to master branch from GitHub.
+  
+  8. Update your local files from the repository:
+       git pull origin master
+
+
+If use Eclipse, install git in eclipse plugin (EGit) and you can do all the git cmds from Eclipse.
