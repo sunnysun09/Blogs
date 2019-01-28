@@ -1,0 +1,23 @@
+Cucumber is an automation tool used for automating acceptance tests that are written in BDD (Behaviour driven development)
+style. Central to the Cucumber BDD approach is its plain language parser called Gherkin. It allows expected software behaviors 
+to be specified in a logical language that customers can understand.
+
+Cucumber supports varies of languages such as Java or Ruby.
+
+To set up test automation with Cucumber, Ruby and Web driver:
+
+    1. Install Ruby+Devkit downloadable from http://rubyinstaller.org/downloads
+    2. From command prompt, install Cucumber by running:
+          gem install cucumber
+    3. Install Selenium or Watir WebDriver:
+          gem install watir-webdriver
+            or
+          gem install selenium-webdriver
+    4. Install Page Object:
+          gem install page-object
+          
+    5. Install webdriver for the browsers. e.g, for chromedriver:
+          https://sites.google.com/a/chromium.org/chromedriver/downloads
+  
+To run the test, from command prompt, go to balance_checking directory, and run:
+    ./cucumber
